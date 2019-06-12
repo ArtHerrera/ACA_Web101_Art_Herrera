@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
+    background-color: blue;
     background-size: 1000px 1000px;
     width: 100vw;
     height: 100vh;
@@ -8,24 +8,29 @@ body {
 }
 h1 {
     height: 50px;
-    width: 550px;
+    width: 600px;
     position: absolute;
-    left: 30%;
-    top: 1%;
-    border: 2px solid whitesmoke;
+    left: 28%;
+    top: 2%;
+    border: 6px solid royalblue;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    padding: 2px;
+    background-color: whitesmoke;
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 45px;
 }
 .main-container {
     height:200%;
     width: 45%;
-    border: 10px solid white;
+    border: 10px solid royalblue;
     display: inline-block;
+    background-color: rgb(76, 168, 175);
 }
-.blog {height: 40%;
+.blog {height: 25%;
      width: 45%;
-     border: 4px solid white;
+     border: 6px solid royalblue;
+     background-color: whitesmoke;
      border-radius: 2%;
      padding: 4px;
      text-align: center;
@@ -34,30 +39,30 @@ h1 {
      top: 20%;
     }
 .title {
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
     text-align: center;
-    color: blue;
+    color: black;
     font-weight: bold;
 }
-.date {font-size: 40px;
+.date {font-size: 15px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align: center;
 font-weight: bold;
+font-style: italic;
 }
 .content {
-    font-size: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-.blogs {height: 100%;
+.blogs {height: 25%;
     width: 45%;
-    border: 4px solid white;
-    border-radius: 2%;
+    border: 6px solid royalblue;
+    border-radius: 1%;
+    background-color: whitesmoke;
     padding: 4px;
-    text-align: center;
     box-align: center;
     position: absolute;
-    top: 62%;
+    top: 50%;
     left: 28%;
    }
